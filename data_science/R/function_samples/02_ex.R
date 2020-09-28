@@ -69,3 +69,68 @@ table(exam$pass)
 
 exam <- exam %>% mutate(grade = ifelse(avg >= 90, "A", ifelse(avg >= 70, "B", "C")))
 table(exam$grade)
+
+
+
+#1. muatate와 summarise 차이점
+  # - mutate 는 파생변수를 생성하는 함수 -> 원본데이터에 변수가 추가
+  # - summarise 요약통계량 산출 새로운 데이터가 생성
+
+#2. mean, max 수학함수x, summarise에는 사용가능 ?
+  # - 수학함사 -> vector 인가 아닌가의 여부 확인
+exam %>% 
+  group_by(class) %>% 
+  summarise((mean_math = mean(math)))
+
+#반별 pass/fail 빈도수 계산
+exam %>%  
+  group_by(class, pass) %>% 
+  summarise(n_pass = n()) #그룹별로 묶인 데이터에 대해서 빈도수 출력력
+
+
+#Join and bind_rows
+mid <- read.csv("test1.csv")
+mid
+
+
+final <- read.csv('test2.csv')
+final
+
+#inner join 교집합
+
+total <- inner_join(mid, final, by = 'id')
+total
+
+#full_join
+#두개의 데이터 전부 합침, 결측치도 합침
+
+total <- full_join(mid, final, by = 'id')
+total
+
+#lef_join
+#왼쪽 데이터 기준으로 합침
+
+total <- left_join(mid,final, by='id')
+total
+
+#right_join
+#오른쪽 데이터 기준으로 합침
+total <- right_join(mid, final, by ='id')
+total
+
+#join 으로 반별 선생님 이름 추가
+
+teacher <- read.csv('teacher.csv')
+teacher
+
+exam <- left_join(exam, teacher, by = 'class')
+exam
+
+#bind_rows 함수
+total
+
+test <- read.csv('test3.csv')
+test
+
+total<- bind_rows(total, test)
+total
