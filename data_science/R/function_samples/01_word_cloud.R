@@ -1,6 +1,6 @@
 list.files() #현재 워킹디렉토리 안에 파일 보기
 getwd()
-setwd("C:/Users/kimji/00_LearningByDoing/data_science/r_code")
+setwd("C:/Users/kimji/00_LearningByDoing/data_science/R/function_samples")
 install.packages("vars")
 install.packages("vctrs")
 update.packages('vtrts')
