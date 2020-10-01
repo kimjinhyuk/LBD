@@ -1,72 +1,137 @@
+---
+title: "Basic_vidualization"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## First R Markdown with movie rating data
+
+* Read data
+
+```{r movies}
 movies <- read.csv('data/Movie Ratings.csv',header=T)
+```
 
-#Structure and summary of dataset
-str(movies)
+```{r summary}
 summary(movies)
+```
 
-# To see abstract of dataset
-head(movies)  # top 6 rows
-tail(movies)  # last 6 rows
+##  * change the column names
 
-#change the column names
+```{r colnames}
 colnames(movies) <- c('name','genre','criticsratings','audienceratings','budgetmillions','releaseyear')
+```
 
-# To see the types of genre
+## To see the types of genre
+```{r}
 levels(movies$genre)
 head(movies)
+```
 
-# changing the numeric column to categorical
+## changing the numeric column to categorical
+```{r}
 movies$releaseyear<-as.factor(movies$releaseyear)
 levels(movies$releaseyear)
+```
 
-# install ggplot2 package
-# library(ggplot2)
+## ggplot2 package
+```{r echo=FALSE}
+library(ggplot2)
 ggplot(data=movies,aes(x=criticsratings,y=audienceratings)) + geom_point()
+```
 
-# color and size setting 
-#ggplot(data=movies,aes(x=criticsratings,y=audienceratings,color=genre,size=budgetmillions))
+## color and size setting 
+
+```{r echo=FALSE}
 r<-ggplot(data=movies,aes(x=criticsratings,y=audienceratings))+geom_point(color='red',size=3)
 r
+```
 
-#Color and Size mapping
+## Color and Size mapping
+
+```{r echo=FALSE}
 r+geom_point(aes(color='yellow'))
 r+geom_point(aes(size=budgetmillions))
+```
 
-# changing the graph type
+## changing the graph type
+
+```{r  echo=FALSE}
 ggplot(data=movies,aes(x=budgetmillions))+
   geom_histogram(binwidth=10,color='blue',fill='green')
+```
 
-# genre mappig
+## genre mappig
+
+```{r ,echo=FALSE}
 ggplot(data=movies,aes(x=budgetmillions))+
   geom_histogram(binwidth=10,color='black',aes(fill=genre))
+```
 
-#Using facet grid to divide the graph according to genre
+
+## Using facet grid to divide the graph according to genre
+```{r ,echo=FALSE}
 ggplot(data=movies,aes(x=criticsratings,y=audienceratings))+geom_point(color='red',size=3)+
   facet_grid(.~genre)
+```
 
+
+```{r  echo=FALSE}
 d <- ggplot(data=movies,aes(x=budgetmillions))+
   geom_density(color='black',stack=10,aes(fill=genre))
 d
+```
 
-# Adding new layer for limiting the yscale
+## Adding new layer for limiting the yscale
+```{r  echo=FALSE}
 ggplot(data=movies,aes(x=budgetmillions))+
   geom_histogram(binwidth=10,color='black',aes(fill=genre))+
   coord_cartesian(ylim=c(0,50))
+```
 
-# histograms with facet grid
+## histograms with facet grid
+```{r  echo=FALSE}
 ggplot(data=movies,aes(x=budgetmillions))+
   geom_histogram(binwidth=10,color='black',aes(fill=genre))+
   facet_grid(genre~.,scales='free')
+```
 
-# Scaling x and y coordinates
+## Scaling x and y coordinates
+```{r  echo=FALSE}
 t <- ggplot(data=movies,aes(x=criticsratings,y=audienceratings,color=genre))+geom_point(size=3)+
   facet_grid(genre~releaseyear)+xlim(0,100)+ylim(0,50)
 t
-# Ignore the missing value. Here our major focus on learning ggplot2
+```
 
-# adding themes to plots
-# install.package(ggthemes)
+
+## adding themes to plots
+```{r  echo=FALSE}
 library(ggthemes)
-#help(ggthemes)
+```
+
+## see the difference between d & d + theme_economist()
+```{r  echo=FALSE}
 d + theme_economist()
-# see the difference between d & d + theme_economist()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
