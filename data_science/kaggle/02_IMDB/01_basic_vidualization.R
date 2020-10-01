@@ -1,4 +1,4 @@
-movies <- read.csv('C:/Users/kimji/00_LearningByDoing/data_science/kaggle/02_IMDB/data/Movie Ratings.csv',header=T)
+movies <- read.csv('data/Movie Ratings.csv',header=T)
 
 #Structure and summary of dataset
 str(movies)
