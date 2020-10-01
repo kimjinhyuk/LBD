@@ -2,9 +2,14 @@
 title: "Basic_vidualization Practice R"
 excerpt: "Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making. Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, and is used in different business, science, and social science domains. In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively"
 categories: [Data analysis]
+author: "Jin"
+date: "10/01/2020"
 use_math: true
 comments: true
 tag: [R, Data analysis, kaggle]
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
