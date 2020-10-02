@@ -1,0 +1,75 @@
+---
+title: "Wordcloud with group kakaotalk"
+excerpt: A tag cloud (word cloud or wordle or weighted list in visual design) is a
+  novelty visual representation of text data, typically used to depict keyword metadata
+  (tags) on websites, or to visualize free form text. Tags are usually single words,
+  and the importance of each tag is shown with font size or color.This format is useful
+  for quickly perceiving the most prominent terms to determine its relative prominence.
+  Bigger term means greater weight.When used as website navigation aids, the terms
+  are hyperlinked to items associated with the tag
+categories: [Data analysis]
+author: "Jin"
+date: "10/01/2020"
+use_math: true
+comments: true
+tag: [R, Data analysis, kaggle]
+output:
+  md_document:
+    variant: markdown_github
+---
+
+install.packages("webshot")
+webshot::install_phantomjs()
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE}
+getwd()
+library(KoNLP)
+```
+
+## text02.txt 카카오톡 대화방 내용을 저장한 파일 불러오기 
+
+```{r echo=FALSE}
+text1 <- readLines('text02.txt')
+```
+
+## 명사만 추출
+
+```{r text2}
+text2 <- extractNoun(text1)
+```
+## 벡터 형식으로 바꿈
+```{r text3}
+text3 <- unlist(text2)
+```
+
+## 불용어 처리 
+```{r text1}
+text4 <-gsub("ㅎ","",text3)
+text4 <-gsub("ㅋㅋ","",text3)
+text4 <-gsub("^^","",text3)
+text4 <-gsub("ㅋ","",text3)
+text4 <-gsub("ㅎ","",text3)
+```
+## 짧은단어 & 긴단어 삭제
+```{r text5}
+text5 <- text4[nchar(text4) < 5]
+text5 <- text5[nchar(text5) > 1]
+```
+## 빈도수 확인 후 단어 정렬
+```{r text7}
+text6 <- sort(table(text5), decreasing = T)
+text7 <- head(text6, 300)
+```
+
+```{r wordcloud2, echo=FALSE}
+library(wordcloud2)
+```
+## 워드클라우드 시각화
+```{r echo=FALSE}
+wordcloud2(text7, size=3)
+```
+![](https://github.com/kimjinhyuk/kimjinhyuk.github.io/blob/master/img/wordcloud_kakao.png?raw=true)
