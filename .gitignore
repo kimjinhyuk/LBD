@@ -5,3 +5,5 @@ Jin-likelion.pem
 
 data_science/kaggle/03_post_covid19_dacon/data/*
 
+.vscode/settings.json
+.ipynb_checkpoints/*
