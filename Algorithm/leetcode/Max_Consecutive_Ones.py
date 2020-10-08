@@ -6,7 +6,6 @@ class Solution(object):
         """
         return len(max("".join(map(str, nums)).split("0")))
 
-
 # sonlutionInstance = Solution()
 # findMaxConsecutiveOnes([0, 1, 1, 0, 0, 1, 1, 1, 0])
 
