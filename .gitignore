@@ -7,3 +7,6 @@ data_science/kaggle/03_post_covid19_dacon/data/*
 
 .vscode/settings.json
 .ipynb_checkpoints/*
+
+data_science/.ipynb_checkpoints/*
+data_science/kaggle/.ipynb_checkpoints/*
