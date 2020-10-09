@@ -10,3 +10,5 @@ data_science/kaggle/03_post_covid19_dacon/data/*
 
 data_science/.ipynb_checkpoints/*
 data_science/kaggle/.ipynb_checkpoints/*
+environment.yml
+package-list.txt
