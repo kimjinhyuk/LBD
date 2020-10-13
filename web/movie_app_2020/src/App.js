@@ -1,18 +1,20 @@
+import { render } from '@testing-library/react';
 import React from 'react';
 
-function Food({ fav }) {
-  return <h3> I love {fav}</h3>;
+function Food({ favorite }) {
+  return <h3> I love {favorite} </h3>;
+}
+
+const foodILike = [{}]
+
+function renderFood(dish) {
+  return <Food name={dish.name} picture={dish.image} />
 }
 
 function App() {
   return (
     <div>
-      <h1>hello! </h1>
-      <Food fav="kimchi" />
-      <Food fav="ramen" />
-      <Food fav="삼겹살" />
-      <Food fav="쭈꾸미" />
-      {/* Food component property fav value kimchi */}
+      {foodILike.map(renderFood)}      
     </div>
   );
 }
