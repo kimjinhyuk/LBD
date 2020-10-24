@@ -1,12 +1,35 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<React.StrictMode><App/></React.StrictMode>, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const useInput = (initialValue, validator) => {
+  const [value, setValue] = useState(initialValue);
+  const onChange = (event) => {
+    const {
+      target : { value }
+    } = event;
+    let willUpdate = true;
+    if (typeof validator === "function") {
+      willUpdate = validator(value);
+    }
+    if(willUpdate) {
+      setValue(value);
+    }
+  };
+  return { value, onChange };
+}
+
+const App = () => {
+  const maxLen = (value) => value.length <= 10;
+  const name = useInput("Mr.", maxLen);
+  return (
+    <div className="App">
+      <h1>Hello</h1>
+      <input placeholder="Name" {...name} />
+    </div>
+  );
+};
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
