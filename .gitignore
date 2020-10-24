@@ -14,6 +14,8 @@ data_science/kaggle/03_post_covid19_dacon/.ipynb_checkpoints/*
 
 AI/.ipynb_checkpoints/*
 AI/Kaggle/01_leaf-classification/data/*
+AI/Kaggle/01_leaf-classification/images/*
 AI/Kaggle/01_leaf-classification/*.zip
+AI/Kaggle/input/*
 environment.yml
 package-list.txt
