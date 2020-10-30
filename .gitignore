@@ -16,6 +16,7 @@ AI/.ipynb_checkpoints/*
 AI/Kaggle/01_leaf-classification/data/*
 AI/Kaggle/01_leaf-classification/images/*
 AI/Kaggle/01_leaf-classification/*.zip
-AI/Kaggle/input/*
+AI/Kaggle/01_leaf-classification/input/*
+AI/Kaggle/02_ML-DS-survey-2017-EDA-FAQ/data/*
 environment.yml
 package-list.txt
