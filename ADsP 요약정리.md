@@ -181,4 +181,96 @@
 
      * 단순 세계화에서 복잡한 세계화로의 변화, 비지니스의 중심이 제품 생산에서 서비스로 이동, 시장 창조
 
-       
+
+
+## 🥷🏻 데이터 분석 기획의 이해
+
+1. 분석 기획의 특징
+
+   * 분석 주제 유형
+
+     * Optimization - 최적화의 형태로 수행
+     * Solution -  솔류션을 찾는 방식으로 분석 과제 수행
+     * Insight - 분석 대상이 불분명하고, 분석 방법을 알고 있는 경우 인사이트 도출
+     * Discovery - 발견을 통해서 분석 대상 자체를 새롭게 도출
+
+   * 목표 시점별 분석 기획 방안
+
+     * 과제 중심적인 접근 방식, 장기적인 마스터플랜 방식 
+
+   * 분석 기획시 고려 사항
+
+     * 가용한 데이터(Available Data)
+
+       RDB, NoSQL, 분산파일 시스템(Distributed File System)
+
+2. 분석 방법론
+
+   * 분석방법론의 구성요소
+     * 상세한 절차(Procedure), 방법(Method), 도구와기법(Tools & Techniques), 템플릿과 산출물(Templates & Outputs)
+   * 기업의 합리적 의사결정 장애요소
+     * 고정관념(Stereotype), 편향된 생각(Bias), 프레이밍 효과(Framing Effect)
+   * KDD(Knowledge Discovery in Database)분석 절차
+     * 도메인에 대한 이해와 프로젝트 목표설정 →데이터셋 선택(Selection)→데이터전처리(Preprocessing)→데이터변환(Transformation)→데이터마이닝(Data Mining)→데이터마이닝 결과 평가(Interpretation/Evaluation)
+   * CRIPS-DM(Cross Industry Standard Process For Data Mining) 분석 방법론 절차
+     * 업무이해(Business Understanding)→데이터 이해(Data Understanding)→데이터준비(Data Preparation)→ 모델링(Modeling)→평가(Evaluation)→전개(Deployment)
+   * 빅데이터 분석 방법론
+     * 분석기획(Planning)→데이터준비(Preparing)→데이터분석(Analyzing)→시스템구현(Developing)→평가 및 전개(Deploying)
+
+3. 분석 과제 발굴
+
+   * 하향식 접근 방법(Top Down Approach)
+
+     * 문제 탐색(Problem Discovery)→문제로정의(Problem Definition)→해결방안탐색(Solution Search)→타당상 평가(Feasibility Study)
+
+   * 상향식 접근 방법(Bottom Up Approach)
+
+     * 문제 정의 자체가 어려운 경우 데이터를 기반으로 문제의 재정 및 해결방안 지속적으로 개선
+     * 일반적으로 비지도 학습(Unsupervised Learning)
+     * 통계적 분석 - 가설 설정 →표본 추출 : 인과관계분석, 상관관계 분석, 연관분석
+
+     지도학습(Supervised Learning) - 명확한 input 과 output존재, 분류(Classification), 예측(Regression)
+
+     비지도학습(Unsupervised Learning) - 훈련용 데이터를 통해 함수를 추론할 수 없다. 그룹핑(Grouping)알고리즘, ex) 군집화(Clustering)
+
+4. 분석프로젝트 관리 방안
+   * 분석 과제의 주요 5가지 특성 관리 영역
+     * Data size
+     * Data Complexity - 초기 데이터의 확보와 통합, 분석모델의 선정
+     * Speed
+     * Analytic Complexity - Trade Off 관계존재
+     * Accuracy & Precision - 모델과 실제 값 사이의 차이가 적음(Accuracy), 모델을 반족했을 때 편차의 수준(Precision) 활용적인 측면 : Accuracy, 안정적인 측면 : Precision
+
+5. 분석 마스터 플랜
+
+   * 분석 마스터플랜 수립 프레임워크
+
+     * 전략적 중요도, 비지니스 성과 및 ROI(투자율 회수), 분석 과제의 실행 용이성
+
+     * ROI (Return On Investment, 투자자본수익률) - Volume, Variety, Velocity, Value 기업이 데이터 분석을 통해 추구하거나 달성하고자 하는 목표 가치
+
+     * ROI관점에서의 분석 과제 우선순위 평가 기준 - 시급성 : 전략적 중요도 , 난이도 : 비용과 범위 측면을 고려
+
+     * 포트폴리오 사분면 분석을 통한 과제 우선순위를 선정하는 기법
+
+       1사 분면 : 전략적 중요도가 높아 현재 시급하게 추진이 필요함, 난이도가 높아 과제를 바로 적용하기에 어려움
+
+       2사 분면 : 중장기적 관점에서는 반드시 추진되어야 함, 바로 적용하기에는 난이도가 높음
+
+       3사 분면 : 현재 시점에 전략적 가치를 두고 있음. 난이도가 어렵지 않아 우선적으로 바로 적용 가능할 필요성이 있음
+
+       4사 분면 : 중장기적 관점에서 과제 추진이 바람직함. 어렵지 않음
+
+     * 분석과제 우선순위 조정 Case - 시급성과 난이도가 높은 1사분면은 경영진 또는 실무 담당자의 의사결정에 따라 적용, 기숙적 요소에 따라 우선순위조정, 분석 범위에 따라 우선순위 적용
+
+   * 분석 거버넌스 체계 수립
+
+     * 거버넌스 체계 개요 -  기업에서 데이터가 어떻게 관리되고, 유지되고, 규제 되는지에 대한 내부적인 관리 방식이나 프로세스.
+
+       데이터가 적시에 필요한 사람에게 제공되도록 체계를 확립. 개인 프라이버시 관련 데이터로 인해 '빅브라더' 우려
+
+     * 데이터 분석 성숙도 모델 및 수준 진단 
+
+       * 데이터 분석 준비도 프레임 워크 - 1. 분석업무 파악, 2. 인력 및 조직, 3. 분석 기법, 4. 분석 데이터, 5. 분석 문화, 6. 분석 인프라
+
+     * 분석 성숙도 모델 - 도입 단계, 활용 단계, 확산 단계, 최적화 단계 
