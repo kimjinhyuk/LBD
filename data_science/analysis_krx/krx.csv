@@ -2350,6 +2350,7 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 001795,KOSPI,대한제당우,,,,,,,
 001130,KOSPI,대한제분,"곡물가공품, 전분 및 전분제품 제조업","소맥분,토코밀,프리믹스,밀가루조제품,제분부산물 제조/파스타 수입,판매",1970-11-25,12월,"이건영, 송인석",http://www.dhflour.co.kr,서울특별시
 003490,KOSPI,대한항공,항공 여객 운송업,"여객운송,화물운송,항공기 제조,판매,정비수리/기내식 제조판매,면세품 판매",1966-03-18,12월,"조원태, 우기홍",http://www.koreanair.com,서울특별시
+0034901B,KOSPI,대한항공 46R,,,,,,,
 003495,KOSPI,대한항공우,,,,,,,
 005880,KOSPI,대한해운,해상 운송업,"외항화물운송,국제해운대리점",1992-04-23,12월,김만태,http://www.korealines.co.kr,서울특별시
 003830,KOSPI,대한화섬,화학섬유 제조업,"화학섬유원사(FY,PTY,S.FIBER)제조",1985-12-23,12월,박재용,http://www.daehansf.co.kr,서울특별시
@@ -2529,6 +2530,7 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 071280,KOSDAQ,로체시스템즈,특수 목적용 기계 제조업,LCD 제조용 이송장비,2003-11-14,12월,박기환,http://www.rorze.co.kr,경기도
 032350,KOSPI,롯데관광개발,여행사 및 기타 여행보조 서비스업,"국내외여행알선,관광개발,전세운수,항공권매매대행",2006-06-08,12월,"김기병, 백현, 김한준",http://lottetour.com,제주특별자치도
 330590,KOSPI,롯데리츠,부동산 임대 및 공급업,부동산투자,2019-10-30,06월,롯데에이엠씨 주식회사,http://www.lottereit.co.kr/,서울특별시
+3305901B,KOSPI,롯데리츠 3R,,,,,,,
 000400,KOSPI,롯데손해보험,보험업,손해보험업,1971-04-16,12월,최원진,http://www.lotteins.co.kr,서울특별시
 023530,KOSPI,롯데쇼핑,종합 소매업,"백화점(의류,식품 및 잡화),할인점 운영/전자상거래",2006-02-09,12월,강희태,http://www.lotteshoppingir.com/,서울특별시
 004000,KOSPI,롯데정밀화학,기초 화학물질 제조업,"염소·셀룰로스계열, 암모니아 계열, 전자재료 등 화학제품 제조",1976-04-15,12월,정경문,http://www.lottefinechem.com,울산광역시
@@ -2736,7 +2738,6 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 52FD95,KOSPI,미래FD95한국전력콜,,,,,,,
 52FD96,KOSPI,미래FD96한국전력콜,,,,,,,
 52FD97,KOSPI,미래FD97한국전력콜,,,,,,,
-52FE05,KOSPI,미래FE05S-OIL콜,,,,,,,
 52FE07,KOSPI,미래FE07현대건설콜,,,,,,,
 52FE08,KOSPI,미래FE08케이티지콜,,,,,,,
 52FE09,KOSPI,미래FE09케이티지콜,,,,,,,
@@ -3911,7 +3912,7 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 080440,KOSDAQ,에스제이케이,기타 전문 도매업,"자동차부품, 키보드 등",2005-05-13,12월,김도윤,http://SEJIN.COM,서울특별시
 217910,KONEX,에스제이켐,기초 화학물질 제조업,"수처리응집제, 폴리프로필렌",2018-04-27,12월,배동수,http://www.sj-chem.com/,전라북도
 224020,KONEX,에스케이씨에스,플라스틱제품 제조업,플라스틱 필름,2016-07-25,12월,조경진,http://skcs.co.kr,경기도
-096630,KOSDAQ,에스코넥,통신 및 방송 장비 제조업,WaferProber,2007-12-26,12월,박순관(단독대표이사),http://www.syconnect.co.kr,경기도
+096630,KOSDAQ,에스코넥,통신 및 방송 장비 제조업,WaferProber,2007-12-26,12월,박순관(단독대표이사),http://www.s-connect.co.kr,경기도
 069510,KOSDAQ,에스텍,영상 및 음향기기 제조업,스피커 및 스피커시스템,2003-11-14,12월,오인용,http://www.estec.co.kr,경상남도
 041910,KOSDAQ,에스텍파마,의약품 제조업,원료의약품,2004-02-06,12월,김재철,http://www.estechpharma.com,경기도
 234300,KOSDAQ,에스트래픽,"컴퓨터 프로그래밍, 시스템 통합 및 관리업","교통관련 솔루션 개발, 시스템통합 S/W 개발",2017-12-05,12월,문찬종,http://www.straffic.co.kr,경기도
@@ -4632,7 +4633,7 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 120115,KOSPI,코오롱인더우,,,,,,,
 950160,KOSDAQ,코오롱티슈진,기초 의약물질 및 생물학적 제제 제조업,골관절염 치료제,2017-11-06,12월,"노문종, 한성수",http://tissuegene.com,미국
 138490,KOSPI,코오롱플라스틱,합성고무 및 플라스틱 물질 제조업,엔지니어링플라스틱,2011-06-15,12월,방민수,http://www.kolonplastics.com,경상북도
-021240,KOSPI,코웨이,그외 기타 개인 서비스업,"렌탈 서비스(정수기,비데, 필터교환 등), 가정용기기 도매,판매,제조,폐기물처리설비,수출(정수기,청정기)",2001-08-07,12월,이해선,http://www.coway.co.kr,충청남도
+021240,KOSPI,코웨이,그외 기타 개인 서비스업,"렌탈 서비스(정수기,비데, 필터교환 등), 가정용기기 도매,판매,제조,폐기물처리설비,수출(정수기,청정기)",2001-08-07,12월,"이해선, 서장원",http://www.coway.co.kr,충청남도
 033290,KOSDAQ,코웰패션,"섬유, 의복, 신발 및 가죽제품 소매업","콘덴서,저항기",1997-10-13,12월,"최용석, 임종민",http://www.pilkor.co.kr,경기도
 056360,KOSDAQ,코위버,통신 및 방송 장비 제조업,"가입가계 가입자계 광단국장치,SONs-51,OMS-155M,OCSU,E2 가입자 전송장비,SDS-2500 등",2001-12-04,12월,황인환,http://www.coweaver.co.kr,서울특별시
 282880,KOSDAQ,코윈테크,특수 목적용 기계 제조업,"공정 자동화 설비 (2차전지, 석유화학, 반도체 및 디스플레이)",2019-08-05,12월,이재환,http://www.cowintech.com,충청남도
@@ -4853,7 +4854,7 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 031980,KOSDAQ,피에스케이홀딩스,특수 목적용 기계 제조업,감광액제거기,1997-01-07,12월,박경수,http://www.psk-inc.com,경기도
 002230,KOSDAQ,피에스텍,"측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외",자동차부품,1991-01-04,12월,김 형 민,http://www.pstec.co.kr,서울특별시
 242350,KONEX,피엔아이컴퍼니,"영화, 비디오물, 방송프로그램 제작 및 배급업","3D 애니메이션, 3D VR 시뮬레이터 및 콘텐츠",2016-12-22,12월,신재중,http://www.pnisys.com,제주특별자치도
-239890,KONEX,피엔에이치테크,기초 화학물질 제조업,"OLED완성체, OLED중간체, Pd촉매",2016-08-16,12월,현서용,http://www.phtech.co.kr,경기도
+239890,KOSDAQ,피엔에이치테크,기초 화학물질 제조업,OLED 소재,2021-02-16,12월,현서용,http://www.phtech.co.kr,경기도
 347740,KOSDAQ,피엔케이피부임상연구센타,"그외 기타 전문, 과학 및 기술 서비스업",피부인체적용시험,2020-09-09,12월,이해광,http://www.pnkskin.com,서울특별시
 137400,KOSDAQ,피엔티,특수 목적용 기계 제조업,2차전지 및 전자소재용 Roll-to-Roll 장비,2012-07-06,12월,김준섭,http://www.epnt.co.kr,경상북도
 128660,KOSDAQ,피제이메탈,1차 비철금속 제조업,"탈산제, 조재제",2010-12-13,12월,원경연,,서울특별시
@@ -6417,7 +6418,6 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 088350,KOSPI,한화생명,보험업,생명보험,2010-03-17,12월,여승주,http://www.hanwhalife.com,서울특별시
 000370,KOSPI,한화손해보험,보험업,손해보험,1975-06-30,12월,강성수,http://www.hwgeneralins.com/,서울특별시
 009830,KOSPI,한화솔루션,기초 화학물질 제조업,"합성수지,유화부문(LDPE,LLDPE)제품 제조,플라스틱가공품(PVC),CA,무기화학제품,부동산업",1974-06-19,12월,"이구영, 김희철, 류두형, 김동관",http://hcc.hanwha.co.kr,서울특별시
-0098301B,KOSPI,한화솔루션 47R,,,,,,,
 009835,KOSPI,한화솔루션우,,,,,,,
 272210,KOSPI,한화시스템,전자부품 제조업,"정밀기기(육해공군관련전자제어시스템,열영상감시장비,탐지추적장치,전투지휘체계시스템) 제조",2019-11-13,12월,김연철,http://hanwhasystems.com,경상북도
 317320,KOSDAQ,한화에스비아이스팩,금융 지원 서비스업,기업인수합병,2019-05-03,12월,이준효,,서울특별시
@@ -6473,7 +6473,7 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 001500,KOSPI,현대차증권,금융 지원 서비스업,"유가증권의매매,위탁매매,유가증권의 중개,대리/부동산 임대",1990-06-09,12월,최병철,http://hmsec.com,서울특별시
 227840,KOSPI,현대코퍼레이션홀딩스,음·식료품 및 담배 도매업,"브랜드사업, 육류유통",2015-10-23,12월,장안석,http://www.hyundaicorpholdings.com,서울특별시
 039010,KOSDAQ,현대통신,통신 및 방송 장비 제조업,홈오토메이션 제조,2000-07-20,12월,이건구,http://www.hyundaitel.com,서울특별시
-126560,KOSPI,현대퓨처넷,텔레비전 방송업,방송업,2010-12-23,12월,류성택,http://www.hcn.co.kr,서울특별시
+126560,KOSPI,현대퓨처넷,텔레비전 방송업,광고업,2010-12-23,12월,류성택,http://www.hyundaifuturenet.co.kr,서울특별시
 001450,KOSPI,현대해상,보험업,손해보험(자동차보험),1989-08-25,12월,"조용일, 이성재",http://www.hi.co.kr,서울특별시
 057050,KOSPI,현대홈쇼핑,무점포 소매업,TV홈쇼핑 도소매/홈쇼핑프로그램 제작,2010-09-13,12월,"정교선, 임대규(각자 대표이사)",http://www.hmall.com,서울특별시
 092300,KOSDAQ,현우산업,전자부품 제조업,인쇄회로판(PCB),2007-10-24,12월,문병선,,인천광역시
@@ -6485,7 +6485,6 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 008770,KOSPI,호텔신라,기타 상품 전문 소매업,"면세판매,관광숙박,외식사업,예식업",1991-03-12,12월,이부진,http://www.hotelshilla.net,서울특별시
 008775,KOSPI,호텔신라우,,,,,,,
 060560,KOSDAQ,홈센타홀딩스,기타 전문 도매업,"건축자재,레미콘",2002-07-11,12월,박 병 윤,http://www.home-center.co.kr,대구광역시
-0605601B,KOSDAQ,홈센타홀딩스 16R,,,,,,,
 064240,KOSDAQ,홈캐스트,영상 및 음향기기 제조업,디지털 셋톱박스,2003-06-11,12월,권영철,http://www.homecast.net,서울특별시
 039610,KOSDAQ,화성밸브,일반 목적용 기계 제조업,"가스밸브, 매몰용접용 볼밸브, 온수분배기",2000-03-16,12월,"장원규, 장성필(각자대표)",http://www.hsvalve.co.kr,대구광역시
 002460,KOSPI,화성산업,건물 건설업,아파트 건설,1988-09-29,12월,"이홍중,이종원",http://www.hwasung.com,대구광역시
