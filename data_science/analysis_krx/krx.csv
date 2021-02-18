@@ -64,6 +64,7 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 051500,KOSDAQ,CJ프레시웨이,음·식료품 및 담배 도매업,"식자재유통, 단체급식",2001-07-26,12월,문종석,http://www.cjfreshway.com,경기도
 058820,KOSDAQ,CMG제약,의약품 제조업,의약품,2001-08-31,12월,이주형,http://www.skynewpharm.com,서울특별시
 023460,KOSDAQ,CNH,신탁업 및 집합투자업,투자자문,1994-10-07,12월,"임영기,김양수(각자 대표이사)",http://www.cnhcap.co.kr,경기도
+056000,KOSDAQ,COWON,소프트웨어 개발 및 공급업,모바일게임,2003-07-11,12월,"신현종, 이승훈",http://www.nesm.co.kr,서울특별시
 065770,KOSDAQ,CS,통신 및 방송 장비 제조업,"이동통신중계기, 위성방송(DMB)중계기(Gap-Filler)",2004-06-04,12월,최규훈,http://www.cs-holdings.co.kr,경기도
 083660,KOSDAQ,CSA 코스믹,기타 화학제품 제조업,"물탱크,상하수도용도류벽,축산탱크",2006-07-25,12월,조성아,http://www.gentro.co.kr,서울특별시
 000590,KOSPI,CS홀딩스,기타 금융업,"브랜드 수익, 자회사 배당",1975-12-22,12월,임규섭,http://www.chosunwelding.com,경상북도
@@ -1551,7 +1552,6 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 55FD67,KOSPI,NHFD67KOSPI200풋,,,,,,,
 55FD70,KOSPI,NHFD70LG화학콜,,,,,,,
 55FD71,KOSPI,NHFD71LG화학콜,,,,,,,
-55FD74,KOSPI,NHFD74LG화학콜,,,,,,,
 55FD75,KOSPI,NHFD75LG화학콜,,,,,,,
 55FD79,KOSPI,NHFD79LG화학콜,,,,,,,
 55FD83,KOSPI,NHFD83LG화학콜,,,,,,,
@@ -1560,7 +1560,6 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 55FD92,KOSPI,NHFD92현대차콜,,,,,,,
 55FD93,KOSPI,NHFD93현대차콜,,,,,,,
 55FE11,KOSPI,NHFE11케이티지콜,,,,,,,
-55FE33,KOSPI,NHFE33삼성전자콜,,,,,,,
 55FE34,KOSPI,NHFE34삼성전자콜,,,,,,,
 55FE35,KOSPI,NHFE35삼성전자콜,,,,,,,
 55FE38,KOSPI,NHFE38삼성전자콜,,,,,,,
@@ -1783,32 +1782,24 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 178920,KOSDAQ,PI첨단소재,플라스틱제품 제조업,PI필름,2014-12-08,12월,김태림,http://www.pimaterials.com,충청북도
 024940,KOSDAQ,PN풍년,기타 금속 가공제품 제조업,압력솥,1995-01-04,12월,유재원,http://www.saekwang.co.kr,경기도
 005490,KOSPI,POSCO,1차 철강 제조업,"열연코일,냉연강판,후판,선재,스테인리스 제조",1988-06-10,12월,"대표이사 회장 최정우, 대표이사 사장 장인화",http://www.posco.co.kr,경상북도
-550001,KOSPI,QV Big Vol ETN,,,,,,,
-550026,KOSPI,QV KTOP30 ETN,,,,,,,
 550058,KOSPI,QV S&P500 VIX S/T 선물 ETN B,,,,,,,
-550002,KOSPI,QV WISE 배당 ETN,,,,,,,
 550059,KOSPI,QV iSelect 글로벌 EMP ETN(H),,,,,,,
 550016,KOSPI,QV 건설 TOP5 ETN,,,,,,,
 550006,KOSPI,QV 내수소비 TOP5 ETN,,,,,,,
-550046,KOSPI,QV 레버리지 10년 국채선물 ETN,,,,,,,
 550044,KOSPI,QV 레버리지 S&P500 ETN,,,,,,,
 550042,KOSPI,QV 레버리지 WTI원유 선물 ETN(H),,,,,,,
-550004,KOSPI,QV 롱숏 K150 매수 로우볼 매도 ETN,,,,,,,
 550041,KOSPI,QV 미국 IT TOP5 ETN(H),,,,,,,
 550014,KOSPI,QV 바이오 TOP5 ETN,,,,,,,
 550008,KOSPI,QV 소프트웨어 TOP5 ETN,,,,,,,
-550033,KOSPI,QV 스마트리밸런싱 260/4 ETN,,,,,,,
 550005,KOSPI,QV 에너지 TOP5 ETN,,,,,,,
 550010,KOSPI,QV 운송 TOP5 ETN,,,,,,,
 550012,KOSPI,QV 의료 TOP5 ETN,,,,,,,
-550047,KOSPI,QV 인버스 레버리지 10년 국채선물 ETN,,,,,,,
 550045,KOSPI,QV 인버스 레버리지 S&P500 ETN,,,,,,,
 550043,KOSPI,QV 인버스 레버리지 WTI원유 선물 ETN(H),,,,,,,
 550011,KOSPI,QV 자동차 TOP5 ETN,,,,,,,
 550015,KOSPI,QV 제약 TOP5 ETN,,,,,,,
 550007,KOSPI,QV 조선 TOP5 ETN,,,,,,,
 550057,KOSPI,QV 코스피 변동성 매칭형 양매도 ETN,,,,,,,
-550056,KOSPI,QV 코스피 양매도 5% OTM ETN,,,,,,,
 550009,KOSPI,QV 하드웨어 TOP5 ETN,,,,,,,
 550013,KOSPI,QV 화학 TOP5 ETN,,,,,,,
 218410,KOSDAQ,RFHIC,통신 및 방송 장비 제조업,GaN 트랜지스터,2015-06-30,12월,조덕수,http://rfhic.com,경기도
@@ -2180,7 +2171,6 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 111710,KOSDAQ,남화산업,스포츠 서비스업,골프장 서비스,2018-11-29,12월,"최재훈, 최영곤 (공동대표이사)",,전라남도
 091590,KOSDAQ,남화토건,건물 건설업,"건축공사, 토목공사",2012-01-31,12월,"최상준, 최재훈",http://www.namhwaconst.co.kr,전라남도
 168330,KOSDAQ,내츄럴엔도텍,자연과학 및 공학 연구개발업,"백수오 여성호르몬제, 백수오등복합추출물(원료)",2013-10-31,12월,이용욱,http://www.naturalendo.com,경기도
-056000,KOSDAQ,네스엠,소프트웨어 개발 및 공급업,모바일게임,2003-07-11,12월,"신현종, 이승훈",http://www.nesm.co.kr,서울특별시
 253590,KOSDAQ,네오셈,특수 목적용 기계 제조업,반도체 검사장비,2018-04-04,12월,염동현,http://www.neosem.com,경기도
 212560,KOSDAQ,네오오토,자동차 신품 부품 제조업,"피니언 기어, 디프 어셈블리, 대형기어",2015-11-18,12월,김원일,http://www.neooto.kr,서울특별시
 095660,KOSDAQ,네오위즈,소프트웨어 개발 및 공급업,"피망,스페셜포스",2007-07-02,12월,문지수,http://www.neowizgames.com,경기도
@@ -2558,7 +2548,7 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 016100,KOSDAQ,리더스코스메틱,기타 화학제품 제조업,화장품,2003-01-15,12월,김진구,http://www.leaderscosmetics.com,서울특별시
 012700,KOSDAQ,리드코프,기타 전문 도매업,화공약품운반,1996-01-19,12월,김철우,http://www.leadcorp.co.kr,서울특별시
 302550,KOSDAQ,리메드,의료용 기기 제조업,자기장 치료기기,2019-12-06,12월,-,http://remed.kr,대전광역시
-029480,KOSDAQ,릭스솔루션,통신 및 방송 장비 제조업,"네트워크 통합사업,네트워크 장비, 光 전송장비, S/W 제조, 네트워크관리",1996-08-27,12월,"이상연,이종명(각자 대표이사)",http://www.kdccorp.co.kr,서울특별시
+029480,KOSDAQ,릭스솔루션,통신 및 방송 장비 제조업,"네트워크 통합사업,네트워크 장비, 光 전송장비, S/W 제조, 네트워크관리",1996-08-27,12월,이상연,http://www.kdccorp.co.kr,서울특별시
 277070,KOSDAQ,린드먼아시아,신탁업 및 집합투자업,"투자조합, PEF 결성 및 투자",2018-03-14,12월,김진하,http://www.laic.kr,서울특별시
 042500,KOSDAQ,링네트,"컴퓨터 프로그래밍, 시스템 통합 및 관리업",네트워크 구축(Network Integration),2002-01-10,12월,이주석,http://www.ringnet.co.kr,서울특별시
 219420,KOSDAQ,링크제니시스,소프트웨어 개발 및 공급업,"반도체, 디스플레이, 자동화 S/W 및 시스템 테스트 자동화 솔루션 개발(XCOMPRO, XGEM, MAT)",2018-02-05,12월,정성우,http://www.linkgenesis.co.kr,경기도
@@ -2873,7 +2863,6 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 52FG41,KOSPI,미래FG41넷마블콜,,,,,,,
 52FG42,KOSPI,미래FG42넷마블콜,,,,,,,
 52FG43,KOSPI,미래FG43SK텔레콤콜,,,,,,,
-52FG44,KOSPI,미래FG44모비스콜,,,,,,,
 52FG45,KOSPI,미래FG45KB금융콜,,,,,,,
 52FG46,KOSPI,미래FG46KB금융콜,,,,,,,
 52FG47,KOSPI,미래FG47KB금융콜,,,,,,,
@@ -5495,7 +5484,6 @@ Symbol,Market,Name,Sector,Industry,ListingDate,SettleMonth,Representative,HomePa
 57FV16,KOSPI,한국FV16기아차풋,,,,,,,
 57FV17,KOSPI,한국FV17기아차풋,,,,,,,
 57FV18,KOSPI,한국FV18넷마블풋,,,,,,,
-57FV19,KOSPI,한국FV19삼성SDI풋,,,,,,,
 57FV21,KOSPI,한국FV21삼성물산풋,,,,,,,
 57FV23,KOSPI,한국FV23삼성전기풋,,,,,,,
 57FV24,KOSPI,한국FV24삼성전기풋,,,,,,,
