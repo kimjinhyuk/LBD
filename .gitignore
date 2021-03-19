@@ -6,21 +6,17 @@ Jin-likelion.pem
 data_science/kaggle/03_post_covid19_dacon/data/*
 
 .vscode/settings.json
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
- .ipynb_checkpoints/
-AI/Kaggle/01_leaf-classification/.ipynb_checkpoints
-
-
+ 
 AI/Kaggle/01_leaf-classification/data/*
 AI/Kaggle/01_leaf-classification/images/*
 AI/Kaggle/01_leaf-classification/*.zip
 AI/Kaggle/01_leaf-classification/input/*
 AI/Kaggle/02_ML-DS-survey-2017-EDA-FAQ/data/*
 
-
 AI/Programmers_quiz_01/*
 environment.yml
 package-list.txt
 .Programmers_quiz_01/*
 
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
